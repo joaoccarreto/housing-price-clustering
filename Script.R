@@ -13,7 +13,7 @@ library(GGally)
 
 
 # Importar dataset
-dataset <- read.csv("Preco_casas_GrupoPL6.csv", header = TRUE)
+dataset <- read.csv("Preco_casas.csv", header = TRUE)
 
 # Remover variável ID
 dataset <- dataset[,-1]
